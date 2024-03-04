@@ -1,22 +1,28 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height of body to full viewport height */
+    margin: 0; /* Remove default margin */
     background-image: url('./assets/bg.jpg');
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: cover;
 }
 
 .box {
-    width: 800px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
-    margin: auto;
+    margin: 5% auto;
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+    width: 800px;
+    max-width: 800px; /* Changed to max-width to make it responsive */
+    border-radius: 10px; /* Added to create rounded corners */
 }
-
 .box-img {
     border-radius: 60%;
     width: 200px;
