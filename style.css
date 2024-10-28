@@ -6,7 +6,7 @@ body {
     align-items: center; /* Center vertically */
     height: 100vh; /* Set height of body to full viewport height */
     margin: 0; /* Remove default margin */
-    background-image: url('./assets/bg.jpg');
+    background-image: url('./assets/bg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
